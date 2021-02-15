@@ -14,3 +14,11 @@
     display: flex;
     justify-content: space-between;
 }
+.projects_list {
+    display: flex;
+    justify-content: space-around;
+}
+.about_me {
+    display: flex;
+    flex-direction: row-reverse;
+}
