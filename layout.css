@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.content {
+    display: grid;
+    grid-template-rows: 200px auto 75px;
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
