@@ -4,21 +4,51 @@
     padding: 0;
 }
 .content {
-    display: grid;
-    grid-template-rows: 200px auto 75px;
-    width: 1200px;
-    margin: 0 auto;
-    min-height: 100vh;
+    
 }
 .header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
+.header h1 {
+    align-self: center;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+
+}
+.header li, a {
+    list-style-type: none;
+    text-decoration: none;
+}
+.personal__area {
+    display: flex;
+    justify-content: space-betw;
+}
+
+.image__area {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    border: 2px solid blue;
+    
+}
+.shield {
+    max-width: 100px;
+    max-height: 100px;
+}
+.contact__links {
+    border: 2px solid red;
+    /* width: 30%; */
+}
+
 .projects_list {
     display: flex;
     justify-content: space-around;
 }
-.about_me {
-    display: flex;
-    flex-direction: row-reverse;
+.about__me {
+    border: 2px solid black;
+    /* width: 40%; */
 }
